@@ -1,0 +1,48 @@
+body{
+    width: 100%;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-menu{
+    width: 100%;
+    background-color: rgb(77, 183, 224);
+    margin: 0px;
+    padding: 4px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+button{
+    background-color: rgb(241, 241, 241);
+    border-radius: 3px;
+    border: 0px solid black;
+    width: 15%;
+    padding: 2px 0px;
+}
+.elem-center{
+    display: flex;
+    justify-content: center;
+    
+    /*margin: auto;*/
+}
+
+p{
+    background-color: rgb(56, 73, 224);
+    margin: 0px;
+    padding: 10px 5px;
+}
+
+.elem-left{
+    display: flex;
+    justify-content: flex-start;
+    /*width: fit-content*/
+}
