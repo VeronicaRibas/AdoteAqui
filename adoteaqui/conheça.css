@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=PT+Serif:ital@1&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(#382902, #070707)
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+}
+
+.cabecalhologo{
+    height: 80px;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+}
+
+.menuitem{
+    font-family: 'PT Serif', serif;
+    color: #070707;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.conheca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'PT Serif', serif;
+}
+
+.mel{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #b8860b;
+}
+
+.ponto1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #b8860b;
+}
+
+.melimg{
+    height: 400px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.ponto2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #b8860b;
+}
+.toby{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #b8860b;
+}
+
+.tobyimg{
+    height: 320px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.ponto3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #b8860b;
+}
+
+
+.quentin{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #b8860b;
+}
+
+.quentinimg{
+    height: 350px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.ponto4{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #b8860b;
+}
+
+.sophia{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #b8860b;
+}
+
+.sophiaimg{
+    height: 400px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.ponto5{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #b8860b;
+}
+
+.alex{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #b8860b;
+}
+
+.aleximg{
+    height: 350px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #b8860b;
+}
+
+.rodapeimg{
+    height: 38px;
+    display: block;
+    margin: 0 auto;
+}

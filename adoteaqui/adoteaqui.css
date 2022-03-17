@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=PT+Serif:ital@1&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: url(testee.png)
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+}
+
+.cabecalhologo{
+    height: 70px;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+}
+
+.menuitem{
+    font-family: 'PT Serif', serif;
+    color: #070707;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.conteudo{
+    border-top: 0.4px solid #080808;
+    margin-bottom: 48px;
+}
+
+.conteudoinicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.conteudoinicio1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteudotitulo{
+    font-family: 'PT Serif', serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: #070707;
+    margin-top: 30px;
+
+}
+
+.conteudoparagrafo{
+    font-family: 'PT Serif', serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #0a0a0a;
+}
+
+.conteudobotao{
+    background-color: #463401;
+    color:#d3cccc;
+    width: 120px;
+    height: 70px;
+    border: none;
+    box-shadow: 4px 5px 4px #b8860b;
+    border-radius: 20px;
+    font-family: 'PT Serif', serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.conteudobotao:hover{
+    background-color: chocolate;
+}
+
+
+.conteudoimg{
+    height: 150px;
+    border-radius: 90px;
+}
+
+.conteudo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+    margin-top: 48px;
+}
+
+.conteudo2titulo{
+    border-top: 0.4px solid #b8860b;
+    padding-top: 40px;
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #dbd8ce;
+}
+
+.conteudo2paragrafo{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #463401;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #b8860b;
+}
+
+.rodapeimg{
+    height: 38px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width: 380px){
+    .cabecalho {
+        flex-wrap: wrap;
+}
+}
